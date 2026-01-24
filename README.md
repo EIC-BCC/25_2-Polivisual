@@ -39,18 +39,18 @@ de sala de aula mais colaborativo, consequentemente, melhorando a qualidade de e
 <!-- Descreva nessa seção a arquitetura do seu código. Sugestão: use mermaid para inclusão de diagramas que ajudem a entender seu código (https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-… -->
 
 ```mermaid
-useCaseDiagram
+usecaseDiagram
     actor "Usuário" as user
 
-    usecase "Escolher poliedro" as UC1
-    usecase "Escolher realce" as UC2
-    usecase "Começar RA" as UC3
-    usecase "Mostrar na tela poliedro\ncom realce" as UC4
+    usecase UC1 as "Escolher poliedro"
+    usecase UC2 as "Escolher realce"
+    usecase UC3 as "Começar RA"
+    usecase UC4 as "Mostrar na tela poliedro\ncom realce"
 
     user --> UC1
     UC1 ..> UC2 : <<include>>
     UC2 ..> UC3 : <<include>>
-    UC3 <.. UC4 : <<extend>>
+    UC4 ..> UC3 : <<extend>>
 ```
 
 # Dependências
