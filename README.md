@@ -8,7 +8,7 @@ BRASILEIRAS SOB UMA ÓTICA DOCENTE**
 
 **Semestre de Defesa: 2025-2**
 
-[PDF do TCC](./TCC_2.pdf)
+[PDF do TCC](./TCC-2.pdf)
 
 # TL;DR
 Para testar o Polivisual, você precisa ter o Node.js instalado em sua máquina. Caso já tenha, instale as dependências do projeto com o comando `npm install` e depois rode localmente com `npm run dev -- --host`.
@@ -36,7 +36,6 @@ de sala de aula mais colaborativo, consequentemente, melhorando a qualidade de e
 * Visualização em 3D em Realidade Aumentada das suas escolhas.
 
 # Arquitetura
-<!-- Descreva nessa seção a arquitetura do seu código. Sugestão: use mermaid para inclusão de diagramas que ajudem a entender seu código (https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-… -->
 
 ```mermaid
 graph TB
